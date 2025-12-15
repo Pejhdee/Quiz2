@@ -1,0 +1,291 @@
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+.cir1 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    left: -185px;
+    top: -182px;
+    background: #09ff00;
+    border-radius: 50%;
+}
+.cir2 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    left: -98px;
+    bottom: -96px;
+    background: #09ff00;
+    border-radius: 50%;
+}
+.cir3 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    right: -98px;
+    top: -96px;
+    background: #09ff00;
+    border-radius: 50%;
+}
+
+.cir4 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    right: -184px;
+    bottom: -181px;
+    background: #09ff00;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 40px;
+}
+.button-restart {
+    background-color: #FF0062;
+    border: 2px solid #FF0062;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 848px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+
+.informatic-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 313px;
+    top: 356px;
+    background: #b2b2b2;
+    border: 1px solid #b2b2b2;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/informatic.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+.flag{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.math-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 1261px;
+    top: 356px;
+    background-image: url("/images/Math.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #006AFF;
+    border: 1px solid #006AFF;
+    box-shadow: 0px 4px 4px #006AFF;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+    border-radius: 47px;
+}
+.informatic-btn:hover{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 313px;
+    top: 356px;
+    background: #b2b2b2;
+    border: 1px solid #b2b2b2;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/informatic.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.informatic-btn:active{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 313px;
+    top: 356px;
+    background: #b2b2b2;
+    border: 1px solid #b2b2b2;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/informatic.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.math-btn:hover{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 1261px;
+    top: 356px;
+    background: #006AFF;
+    background-image: url("images/Math.png");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #006AFF;
+    box-shadow: 0px 4px 4px #006AFF;
+    border-radius: 47px;
+    align-items: center;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.math-btn:active{
+    box-sizing: border-box;
+    position: absolute;
+    width: 268px;
+    height: 311px;
+    left: 1261px;
+    top: 356px;
+    background: #004fbe;
+    background-image: url("images/Math.png");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #004fbe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 47px;
+    align-items: center;box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.button-restart:hover{
+    background-color: #FF0062;
+    border: 2px solid #FF0062;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 848px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.quiz {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+}
+.question {
+    margin-left: 120px; 
+    margin-top: 20px;
+    font-size: 130px;
+    font-family: 'Jost';
+}
+.answer {
+    font-family: 'Jost';
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 10px;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+.answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.answer:hover {
+    font-family: 'Jost';
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 10px;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+
+
+
